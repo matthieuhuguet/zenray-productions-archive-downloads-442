@@ -1,0 +1,14 @@
+# style-v3-background-variants : feedback, prompts and rules (append only)
+
+## Prompt log
+- 2026-09-18 20:48 : Utiliser img-blue-layer.png et img2.png comme backgrounds pour tester un nouveau style sur deux frames, renommer les images en img-blue-layer-01.png et img-red-layer-02.png, garder le titre du style v3, tester Alize Bold, SF Pro et GT Sectra pour le titre, plusieurs polices et couleurs pour les sous-titres, produire beaucoup d'images, une sheet, et un MOV d'animation canon avec fade in du background de gauche à droite comme des particules.
+- 2026-09-18 21:00 : Le style shorts V3 est dans la skill zenray-houdini et doit être appliqué comme référence visuelle de cette exploration.
+
+## Order of work
+
+## Standing rules
+
+## Log
+- 2026-09-18 21:09 : Le premier lancement du script alpha échoue parce que les sources renommées sont dans tmp-layer et non dans tmp-layer/texture-black-white ; le script est corrigé avec un source_dir séparé.
+- 2026-09-18 21:09 : La première rampe de révélation alpha rend la couche invisible à 100 pour cent ; le balayage est inversé pour révéler de gauche à droite et conserver la couche visible à la fin.
+- 2026-09-18 21:09 : Résultat vérifié : 96 images, planche 3072 x 6000, deux frames 3072 x 3840, MOV HEVC 3072 x 3840 à 30 fps pendant 6 secondes, MP4 compagnon, et feuille de contrôle de l animation.
